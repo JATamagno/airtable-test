@@ -186,7 +186,7 @@ const Timeline = ({ initialItems }) => {
           fontSize: '12px',
           color: '#666'
         }}>
-          <strong>Debug Info:</strong><br />
+          <strong>Info:</strong><br />
           Total Days: {totalDays} | Lanes: {lanes.length} | Months: {monthMarkers.length}
           <br />
           Timeline: {startMonth.toLocaleDateString()} - {endMonth.toLocaleDateString()}
